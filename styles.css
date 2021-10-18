@@ -3,3 +3,44 @@
     padding: 0%;
 }
 
+body {
+    wi
+}
+
+.blog {
+    position: relative;
+    top: 1px;
+}
+
+.mtq{
+    position: relative;
+    top: 1px;
+}
+.guide {
+    position: relative;
+    top: -2px;
+}
+.events {
+    position: relative;
+    top: -1px;
+}
+.am {
+    position: relative;
+    top: -1px;
+}
+
+.logo {
+    position: relative;
+    top: -28px;
+    right: -5px;
+}
+
+header {
+    display: flex;
+    height: 80px;
+}
+
+nav {
+    position: relative;
+    left: 520px;
+}
