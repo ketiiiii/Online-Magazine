@@ -4,7 +4,7 @@
 }
 
 body {
-    wi
+    
 }
 
 .blog {
@@ -37,10 +37,35 @@ body {
 
 header {
     display: flex;
-    height: 80px;
+    height: 90px;
+    background-color: white;
 }
 
 nav {
     position: relative;
-    left: 520px;
+    left: 550px;
+    top: -5px;
+}
+
+.mainart {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    height: 660px;
+}
+
+.dline {
+    position: relative;
+    height: 1px;
+    top: -12px;
+}
+
+.art {
+    position: relative;
+    left: 345px;
+    top: 90px;
+}
+
+footer{
+ background-image: url(images/footer.jpg);
+ background-repeat: no-repeat;
 }
