@@ -133,11 +133,13 @@ h2 {
 
 
 .guide-cards {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 280vh;
     width: 100%;
+    position: relative;
+    right: -205px;
 }
 
 
@@ -164,6 +166,7 @@ h2 {
 
     
 }
+
 .htext-details{
     color: black;
     line-height: 2;
@@ -179,3 +182,14 @@ h2 {
 }
 
 
+/*Events article*/
+
+.upcomingevents {
+    background-image: url(images/article2background.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
