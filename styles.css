@@ -193,3 +193,32 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
+.events-cards {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 180vh;
+    width: 80%;
+    position: relative;
+    right: -205px;
+}
+
+.e-card {
+    background-image: url(images/eventsbackg.png.jpg);
+    background-repeat: repeat;
+	box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.2);
+	display: flex;	
+	margin: 1.5rem;
+	overflow: hidden;
+    width: 80%;
+}
+
+.e-card-img{
+    max-width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 1%;
+    background-color: white;
+}
