@@ -93,13 +93,19 @@ p {
     display: none;
 }
 
+.footer-text {
+    text-decoration: none;
+}
 
+.art:hover{
+    height: 600px;
+}
 
 /*guide article*/
 
 .top10 {
     background-image: url(images/article\ 1\ background.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     text-align: center;
     height: 660px;
     display: flex;
@@ -140,6 +146,8 @@ h2 {
     width: 80%;
     position: relative;
     right: -205px;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 
@@ -180,6 +188,18 @@ h2 {
     height: 1%;
 }
 
+.guide-link:link,
+.guide-link:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.guide-link:hover,
+.guide-link:active {
+    text-decoration: none;
+    color: white;
+}
+
 
 /*Events article*/
 
@@ -197,10 +217,12 @@ h2 {
     display: grid;
     justify-content: center;
     align-items: center;
-    height: 180vh;
+    height: 170vh;
     width: 80%;
     position: relative;
     right: -205px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .e-card {
@@ -218,8 +240,35 @@ h2 {
     display: flex;
     justify-content: left;
     align-items: center;
-    height: 1%;
+
+}
+
+.event-numbers {
+    max-width: 99%;
+
+}
+.written{
+    color: gray;
+}
+
+.written-box{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+position: relative;
+left: -45px;
+}
+.events-link:link,
+.events-link:visited {
     background-color: white;
+    text-decoration: none;
+}
+
+.events-link:hover,
+.events-link:active {
+
+    background-color: rgba(255, 255, 255, 0.486);
 }
 
 /*meet the queers*/
@@ -242,6 +291,8 @@ h2 {
     width: 80%;
     position: relative;
     right: -205px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .q-card {
@@ -294,7 +345,7 @@ h4 {
     font-weight: 600;
 }
 
-
-.instalink:hover, .instalink:active {
-  text-decoration: none;
-  }
+.instalink:hover,
+.instalink:active {
+    text-decoration: none;
+}
