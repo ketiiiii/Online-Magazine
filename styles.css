@@ -111,8 +111,8 @@ p {
 .guidetext {
     color: white;
     line-height: 1.9;
-    font-family : 'Montserrat', sans-serif;
-    font-size : 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
     text-shadow: 0px 0px 50px #000000;
 }
 
@@ -123,7 +123,7 @@ h2 {
     font-weight: bold;
 }
 
-.summarytexts{
+.summarytexts {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -137,7 +137,7 @@ h2 {
     justify-content: center;
     align-items: center;
     height: 280vh;
-    width: 100%;
+    width: 80%;
     position: relative;
     right: -205px;
 }
@@ -146,14 +146,14 @@ h2 {
 .g-card {
     background-image: url(images/guideblocks.jpg);
     background-repeat: no-repeat;
-	box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.2);
-	display: flex;	
-	margin: 1.5rem;
-	overflow: hidden;
-    width: 70%;
+    box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 1.5rem;
+    overflow: hidden;
+    width: 80%;
 }
 
-.card-text{
+.card-text {
     text-align: left;
     padding: 30px;
     width: 60%;
@@ -162,18 +162,17 @@ h2 {
 .ptext-details {
     color: #000;
     margin-top: 30px;
-    font-weight: normals;
+    font-weight: normal;
 
-    
 }
 
-.htext-details{
+.htext-details {
     color: black;
     line-height: 2;
     font-weight: bold;
 }
 
-.g-card-img{
+.g-card-img {
     max-width: 100%;
     display: flex;
     justify-content: right;
@@ -207,14 +206,14 @@ h2 {
 .e-card {
     background-image: url(images/eventsbackg.png.jpg);
     background-repeat: repeat;
-	box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.2);
-	display: flex;	
-	margin: 1.5rem;
-	overflow: hidden;
+    box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 1.5rem;
+    overflow: hidden;
     width: 80%;
 }
 
-.e-card-img{
+.e-card-img {
     max-width: 100%;
     display: flex;
     justify-content: left;
@@ -222,3 +221,80 @@ h2 {
     height: 1%;
     background-color: white;
 }
+
+/*meet the queers*/
+
+.meet-the-queerstop {
+    background-image: url(images/meet-the-queerstopimage.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.queer-cards {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 220vh;
+    width: 80%;
+    position: relative;
+    right: -205px;
+}
+
+.q-card {
+    background-color: white;
+    background-repeat: repeat;
+    display: flex;
+    margin: 1.5rem;
+    overflow: hidden;
+    width: 80%;
+}
+
+.q-card-img {
+    max-width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.qcard-text {
+    text-align: left;
+    padding: 50px;
+    margin-top: 30px;
+    width: 70%;
+}
+
+h3,
+h4 {
+    line-height: 2.0;
+    color: rgb(85, 85, 85);
+
+    font-weight: 600;
+    word-spacing: 5px;
+}
+
+.instagram {
+    margin-top: 20px;
+    display: flex;
+}
+
+.insta-text {
+    color: black;
+    position: relative;
+    right: -10px;
+
+}
+
+.about-me {
+    color: black;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+
+.instalink:hover, .instalink:active {
+  text-decoration: none;
+  }
