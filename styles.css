@@ -153,7 +153,7 @@ h2 {
 
 .g-card {
     background-image: url(images/guideblocks.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.2);
     display: flex;
     margin: 1.5rem;
